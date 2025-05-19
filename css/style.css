@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Nunito Sans";
   src: url("../fonts/NunitoSans-Variable.woff2") format("woff2-variations");
   src: url("../fonts/NunitoSans-Variable.woff2") format("woff2") tech
@@ -36,9 +36,9 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-}
+} */
 
-body {
+/* body {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -57,16 +57,16 @@ body {
   max-width: 1840px;
   padding: 0 10px;
   margin: 0 auto;
-}
+} */
 
-.header__inner {
+/* .header__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 0px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 500;
-}
+} */
 
 .menu__list {
   display: flex;
