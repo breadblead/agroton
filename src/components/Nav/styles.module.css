@@ -1,0 +1,8 @@
+.menu__list {
+  display: flex;
+  gap: 0 30px;
+}
+
+.menu__link {
+  text-transform: uppercase;
+}
