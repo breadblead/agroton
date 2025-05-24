@@ -5,7 +5,7 @@
 .top {
   text-align: center;
   color: #fdfdf0;
-  background-image: url(../images/about-big.png);
+  background-image: url(/src/assets/images/about-big.png);
   background-repeat: no-repeat;
   background-position: center center;
   text-transform: uppercase;
@@ -66,4 +66,101 @@
 .achievement-text {
   font-weight: 300;
   font-size: 14px;
+}
+
+.text--bold {
+  font-weight: 600;
+}
+
+.text--color {
+  font-weight: 600;
+  color: #f2a531;
+}
+
+.stats {
+  margin-bottom: 70px;
+  border-radius: 20px;
+  background-color: #f4f4e7;
+  display: flex;
+  padding: 30px 18px;
+  justify-content: space-between;
+  gap: 0 90px;
+}
+
+.stats-item {
+  text-align: center;
+  width: 300px;
+}
+.stats-item dt {
+  font-family: "WorkSans-SemiBold", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.stats-item dd {
+  margin: 0;
+  color: #0e0d0d;
+  font-size: 22px;
+  opacity: 0.7;
+}
+
+.progress-text {
+  font-family: "WorkSans-Light", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 1.17;
+  margin-bottom: 40px;
+}
+
+.progress-text span {
+  font-family: "WorkSans-Medium", sans-serif;
+  font-weight: 500;
+}
+
+.progress-box {
+  display: flex;
+  gap: 0 140px;
+}
+
+.progress-boxtext {
+  font-size: 18px;
+  margin-bottom: 45px;
+  padding-right: 50px;
+  line-height: 1.5;
+  padding-top: 5px;
+}
+
+.progress-boxtext .text--bold {
+  font-weight: 700;
+}
+
+.progress-table {
+  border-top: 1px solid rgba(14, 13, 13, 0.23);
+}
+
+.progress-item {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(14, 13, 13, 0.23);
+}
+
+.progress-item + .progress-item {
+  padding-top: 20px;
+}
+
+.progress-item dt {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.progress-item dt span {
+  color: #f2a531;
+  font-weight: 600;
+}
+
+.progress-item dd {
+  opacity: 0.71;
 }
