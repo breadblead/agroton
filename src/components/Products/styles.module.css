@@ -1,0 +1,75 @@
+.wrapper {
+  padding: 50px 0;
+  background-color: #f4f4e7;
+  border-radius: 20px;
+}
+
+.title {
+  font-family: "WorkSans-Medium", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 35px;
+}
+
+.item {
+  border-radius: 10px;
+  min-height: 322px;
+  margin-bottom: 12px;
+  padding: 50px 24px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.item-btn {
+  position: absolute;
+  bottom: -12px;
+  left: -8px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.item-title {
+  font-family: "WorkSans-Regular", sans-serif;
+  font-weight: 400;
+  margin-bottom: 14px;
+  font-size: 32px;
+}
+
+.item-text {
+  font-weight: 300;
+}
+
+.item:nth-child(odd) .item-title {
+  color: #fff;
+}
+
+.link {
+  display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #0e0d0d;
+  border-radius: 96px;
+  padding: 19px 97px 19px 38px;
+  position: relative;
+  color: #fff;
+  width: 242px;
+  margin: 0 auto;
+}
+
+.link svg {
+  position: absolute;
+  right: 4px;
+  top: 3px;
+}
