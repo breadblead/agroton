@@ -1,0 +1,76 @@
+---
+import styles from "./styles.module.css";
+---
+
+<section class={styles.blog}>
+  <div class="container-big">
+    <div class={styles.wrapper}>
+      <div class="container">
+        <h2 class={styles.title}>Recent blog posts</h2>
+        <div class={styles.items}>
+          <div class={styles["item-big"]}>
+            <img
+              class={styles["item-img"]}
+              src="/src/assets/images/blog-item-1.png"
+              alt="blog__item-img"
+            />
+            <div class={styles["item-box"]}>
+              <div class={styles["item-info"]}>
+                <a href="#">Agroton</a> • 20 Jan 2025
+              </div>
+              <a class={styles["item-titlelink"]} href="#">
+                <h4 class={styles["item-title"]}>Agroton expands sown areas</h4>
+              </a>
+              <p class={styles["item-text"]}>
+                This year we increased sown areas by 10%, which will allow us to
+                increase the production of grain and oilseed crops.
+              </p>
+            </div>
+          </div>
+
+          <div class={styles["item-small"]}>
+            <img
+              class={styles["item-img"]}
+              src="/src/assets/images/blog-item-2.png"
+              alt="blog__item-img"
+            />
+            <div class={styles["item-box"]}>
+              <div class={styles["item-info"]}>
+                <a href="#">Agroton</a> • 20 Jan 2025
+              </div>
+              <a class={styles["item-titlelink"]} href="#">
+                <h4 class={styles["item-title"]}>Export to a new country!</h4>
+              </a>
+              <p class={styles["item-text"]}>
+                We entered the market of [country name] and expanded the
+                geography of supplies of quality Ukrainian products.
+              </p>
+            </div>
+          </div>
+
+          <div class={styles["item-small"]}>
+            <img
+              class={styles["item-img"]}
+              src="/src/assets/images/blog-item-3.png"
+              alt="blog__item-img"
+            />
+            <div class={styles["item-box"]}>
+              <div class={styles["item-info"]}>
+                <a href="#">Agroton</a> • 20 Jan 2025
+              </div>
+              <a class={styles["item-titlelink"]} href="#">
+                <h4 class={styles["item-title"]}>
+                  Modern technologies in livestock farming
+                </h4>
+              </a>
+              <p class={styles["item-text"]}>
+                Agroton has implemented innovative systems for feeding and
+                caring for livestock, which improves product quality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

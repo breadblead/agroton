@@ -43,6 +43,7 @@
   gap: 0 25px;
 }
 
+/* выбрать один стиль написания классок camelCase  */
 .achievement-imgbox {
   min-width: 214px;
   position: relative;
