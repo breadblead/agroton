@@ -1,0 +1,35 @@
+.footer {
+  background-color: #0e0d0d;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-right: 100px;
+}
+
+.element-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.item + .item {
+  padding-top: 15px;
+}
+
+.item-adress {
+  font-style: normal;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid #fff;
+  font-size: 14px;
+}
