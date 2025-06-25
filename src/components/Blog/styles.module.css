@@ -67,6 +67,7 @@
   font-weight: 500;
   color: #101828;
   position: relative;
+  padding-right: 30px;
 }
 
 .item-title::after {
@@ -83,4 +84,39 @@
 
 .item-text {
   color: #667085;
+}
+
+@media (max-width: 1280px) {
+  .items {
+    gap: 20px;
+    grid-template-columns: 380px auto;
+  }
+}
+
+@media (max-width: 1048px) {
+  .items {
+    grid-template-columns: 1fr;
+  }
+  .item-titlelinkX {
+    width: 500px;
+  }
+  .item-img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 678px) {
+  .item-small {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 510px) {
+  .wrapper {
+    padding: 50px 0;
+  }
+  .title {
+    font-size: 28px;
+  }
 }

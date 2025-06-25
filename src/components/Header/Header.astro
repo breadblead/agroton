@@ -1,16 +1,15 @@
 ---
 // import { styleSchema } from 'astro/dist/assets/fonts/config';
 
-import styles from './styles.module.css';
-import Nav from "../Nav/Nav.astro"
-
+import styles from "./styles.module.css";
+import Nav from "../Nav/Nav.astro";
 ---
 
 <header>
   <div class="container">
     <div class={styles.inner}>
       <a href="#" class="logo">
-        <img src="/src/assets/images/logo.png" alt="" />
+        <img src="/src/assets/images/logo.png" alt="logo" />
       </a>
       <Nav />
       <a href="#" class={styles.contacts}>Contact us</a>

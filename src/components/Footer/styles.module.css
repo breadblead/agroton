@@ -9,6 +9,7 @@
   justify-content: space-between;
   margin-bottom: 30px;
   padding-right: 100px;
+  gap: 20px;
 }
 
 .element-title {
@@ -32,4 +33,39 @@
   padding-top: 15px;
   border-top: 1px solid #fff;
   font-size: 14px;
+}
+
+@media (max-width: 870px) {
+  .top {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 790px) {
+  .top {
+    flex-wrap: wrap;
+  }
+  .logo {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 560px) {
+  .element {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .bottom {
+    display: block;
+  }
+  .bottom-item {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 510px) {
+  .footer {
+    padding: 50px 0;
+  }
 }

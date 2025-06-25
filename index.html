@@ -284,6 +284,17 @@
       </div>
     </main>
 
-    <script src="js/main.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const menuBtn = document.querySelector(".js-toggle");
+        const menu = document.querySelector(".js-menu");
+
+        if (menuBtn && menu) {
+          menuBtn.addEventListener("click", () => {
+            menu.classList.toggle("menu--active");
+          });
+        }
+      });
+    </script>
   </body>
 </html>

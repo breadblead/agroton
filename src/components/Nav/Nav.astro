@@ -2,8 +2,13 @@
 import styles from "./styles.module.css";
 ---
 
-<nav class="menu">
-  <ul class={styles.list}>
+<nav class={styles.menu}>
+  <button class={`${styles.btn} js-toggle`}>
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <ul class={`${styles.list} js-menu`}>
     <li class="menu__item">
       <a href="#" class={styles.link}>About company</a>
     </li>
@@ -21,3 +26,23 @@ import styles from "./styles.module.css";
     </li>
   </ul>
 </nav>
+
+<style is:raw>
+  .menu--active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+</style>
+
+<script is:inline>
+  document.addEventListener("DOMContentLoaded", () => {
+    const menuBtn = document.querySelector(".js-toggle");
+    const menu = document.querySelector(".js-menu");
+
+    if (menuBtn && menu) {
+      menuBtn.addEventListener("click", () => {
+        menu.classList.toggle("menu--active");
+      });
+    }
+  });
+</script>

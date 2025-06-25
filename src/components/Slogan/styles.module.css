@@ -22,3 +22,36 @@
 .img {
   margin-top: -145px;
 }
+
+@media (max-width: 1600px) {
+  .title {
+    font-size: 140px;
+  }
+  .text {
+    font-size: 26px;
+  }
+  .img {
+    margin-top: -75px;
+  }
+}
+
+@media (max-width: 870px) {
+  .title {
+    font-size: 64px;
+  }
+  .text {
+    font-size: 26px;
+  }
+  .img {
+    margin-top: -35px;
+  }
+}
+
+@media (max-width: 510px) {
+  .slogan {
+    padding-top: 30px;
+  }
+  .text {
+    font-size: 18px;
+  }
+}
