@@ -40,6 +40,8 @@
   position: relative;
   color: #fff;
   width: 242px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .button svg {

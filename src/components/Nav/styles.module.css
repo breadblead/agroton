@@ -28,6 +28,12 @@
   background-color: #000;
 }
 
+.link {
+  text-transform: uppercase;
+  color: inherit;
+  text-decoration: none;
+}
+
 @media (max-width: 980px) {
   .list {
     display: flex;

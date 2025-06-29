@@ -74,6 +74,12 @@
   top: 3px;
 }
 
+.item,
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (max-width: 870px) {
   .list {
     grid-template-columns: repeat(2, 1fr);
