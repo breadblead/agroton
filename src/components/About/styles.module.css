@@ -43,6 +43,10 @@
   gap: 0 25px;
 }
 
+<<<<<<< HEAD
+=======
+/* выбрать один стиль написания классок camelCase  */
+>>>>>>> 3942620 (Initial commit)
 .achievement-imgbox {
   min-width: 214px;
   position: relative;
