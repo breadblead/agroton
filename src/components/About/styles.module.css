@@ -32,6 +32,8 @@
   justify-content: space-between;
   margin-bottom: 90px;
   margin-top: -55px;
+  color: inherit;
+  text-decoration: none;
 }
 
 .achievement {
@@ -43,10 +45,6 @@
   gap: 0 25px;
 }
 
-<<<<<<< HEAD
-=======
-/* выбрать один стиль написания классок camelCase  */
->>>>>>> 3942620 (Initial commit)
 .achievement-imgbox {
   min-width: 214px;
   position: relative;
