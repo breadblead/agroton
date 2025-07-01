@@ -2,6 +2,7 @@
 }
 
 .list {
+  list-style: none;
   display: flex;
   gap: 0 30px;
 }
@@ -49,13 +50,11 @@
     transition: transform 0.5s ease, opacity 0.5s ease;
     opacity: 0;
     list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    text-align: left;
   }
 
   .menu__item {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
 
   .btn {
