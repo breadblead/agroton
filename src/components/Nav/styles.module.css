@@ -46,9 +46,18 @@
     right: 0;
     padding: 95px 0;
     transform: translateY(-100%);
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, opacity 0.5s ease;
     opacity: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
   }
+
+  .menu__item {
+    margin-bottom: 16px;
+  }
+
   .btn {
     display: flex;
   }

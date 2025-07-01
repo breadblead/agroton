@@ -74,11 +74,11 @@
   top: 3px;
 }
 
-.item,
+/* .item,
 .link {
   text-decoration: none;
   color: inherit;
-}
+} */
 
 @media (max-width: 870px) {
   .list {
