@@ -1,0 +1,29 @@
+.link {
+  display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #0e0d0d;
+  border-radius: 96px;
+  padding: 19px 97px 19px 38px;
+  position: relative;
+  color: #fff;
+  width: 242px;
+  margin: 0 auto;
+}
+
+.link svg {
+  position: absolute;
+  right: 4px;
+  top: 3px;
+}
+
+@media (max-width: 870px) {
+
+}
+
+@media (max-width: 510px) {
+
+  .link {
+    width: auto;
+  }
+}
