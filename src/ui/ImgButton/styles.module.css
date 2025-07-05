@@ -1,0 +1,8 @@
+.item-btn {
+  position: absolute;
+  bottom: -12px;
+  left: -8px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}

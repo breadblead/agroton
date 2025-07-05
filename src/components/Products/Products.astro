@@ -1,6 +1,7 @@
 ---
 import styles from "./styles.module.css";
 import MenuButton from "../../ui/MenuButton/MenuButton.astro";
+import ImgButton from "../../ui/ImgButton/ImgButton.astro";
 ---
 
 <section class="products">
@@ -17,9 +18,7 @@ import MenuButton from "../../ui/MenuButton/MenuButton.astro";
             >
               <h3 class={styles["item-title"]}>Cereal crops</h3>
               <p class={styles["item-text"]}>(wheat, barley, corn)</p>
-              <button class={styles["item-btn"]}>
-                <img src="/agroton/images/btn-arrow.svg" alt="item-btn" />
-              </button>
+              <ImgButton />
             </a>
 
             <a
@@ -29,9 +28,7 @@ import MenuButton from "../../ui/MenuButton/MenuButton.astro";
             >
               <h3 class={styles["item-title"]}>🌻 Oilseeds</h3>
               <p class={styles["item-text"]}>(sunflower, rapeseed, soybean)</p>
-              <button class={styles["item-btn"]}>
-                <img src="/agroton/images/btn-arrow.svg" alt="item-btn" />
-              </button>
+              <ImgButton />
             </a>
             <a
               href="#"
@@ -40,9 +37,7 @@ import MenuButton from "../../ui/MenuButton/MenuButton.astro";
             >
               <h3 class={styles["item-title"]}>🥛 Dairy products</h3>
               <p class={styles["item-text"]}>(milk, dairy products)</p>
-              <button class={styles["item-btn"]}>
-                <img src="/agroton/images/btn-arrow.svg" alt="item-btn" />
-              </button>
+              <ImgButton />
             </a>
             <a
               href="#"
@@ -51,9 +46,7 @@ import MenuButton from "../../ui/MenuButton/MenuButton.astro";
             >
               <h3 class={styles["item-title"]}>🍞 Bakery products</h3>
               <p class={styles["item-text"]}>(bread, pastries)</p>
-              <button class={styles["item-btn"]}>
-                <img src="/agroton/images/btn-arrow.svg" alt="btn-arrow" />
-              </button>
+              <ImgButton />
             </a>
             <a
               href="#"
@@ -62,9 +55,7 @@ import MenuButton from "../../ui/MenuButton/MenuButton.astro";
             >
               <h3 class={styles["item-title"]}>🐔 Poultry farming</h3>
               <p class={styles["item-text"]}>(chicken, eggs)</p>
-              <button class={styles["item-btn"]}>
-                <img src="/agroton/images/btn-arrow.svg" alt="btn-arrow" />
-              </button>
+              <ImgButton />
             </a>
             <a
               href="#"
@@ -73,9 +64,7 @@ import MenuButton from "../../ui/MenuButton/MenuButton.astro";
             >
               <h3 class={styles["item-title"]}>🍏 Vegetables and fruits</h3>
               <p class={styles["item-text"]}>(if available in production)</p>
-              <button class={styles["item-btn"]}>
-                <img src="/agroton/images/btn-arrow.svg" alt="btn-arrow" />
-              </button>
+              <ImgButton />
             </a>
           </div>
           <MenuButton text={"See catalog"} />
