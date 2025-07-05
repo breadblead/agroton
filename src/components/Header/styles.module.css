@@ -27,6 +27,6 @@ a {
     gap: 20px 65px;
   }
   .contacts {
-    margin-left: auto;
+    display: none;
   }
 }
